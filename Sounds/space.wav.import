@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/space.wav-213187f44441c9355866360f98df97ad.sample"
+
+[deps]
+
+source_file="res://Sounds/space.wav"
+dest_files=[ "res://.import/space.wav-213187f44441c9355866360f98df97ad.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Player.gd" type="Script" id=1]
+[ext_resource path="res://Img/Nave 02 (copia).png" type="Texture" id=2]
+[ext_resource path="res://Img/Nave 0 (copia).png" type="Texture" id=3]
+[ext_resource path="res://Img/Nave 01 (copia).png" type="Texture" id=4]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "Still",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "Move",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 29.7563
+height = 0.0
+
+[node name="Player" type="Area2D"]
+position = Vector2( 553.045, 566.925 )
+collision_layer = 2
+collision_mask = 2
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_horizontal_guides_": [ 583.453 ]
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -0.529724, 0.529663 )
+frames = SubResource( 1 )
+animation = "Move"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0.529724, -0.529785 )
+shape = SubResource( 2 )

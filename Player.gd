@@ -1,21 +1,21 @@
 extends Area2D
-#Speed = Velocidad en ingles
+# Speed = Velocidad en ingles
 export var speed = 300
 
 #-------------------------------------------------------------------------------
-#Intancio la escena Bala player
+# Intanciar la escena Bala player
 var Balas = load("res://Bala.tscn")
 var Sounds = load("res://Sounds")
 #-------------------------------------------------------------------------------
-#Variable que obtine el tamaño de la pantalla
+# Variable que obtine el tamaño de la pantalla
 var screen_size
 func _ready():
 	screen_size = get_viewport_rect().size
 	pass
 #-------------------------------------------------------------------------------
-#Movimiento de Player
+# Movimiento de Player
 # Utilisado en godot para normalisar movimiento quaternion, usado tambien en la
-#función normalizad
+# función normalizad
 var distanciaFrame
 var velocidad
 func MoverNave(delta):
@@ -28,8 +28,7 @@ func MoverNave(delta):
 		
 	velocidad = velocidad.normalized() * speed
 	distanciaFrame = velocidad * delta
-	#print(distanciaFrame)
-	#actualsar la pocsition nave
+	# actualizar la pocsition nave
 	position = position + distanciaFrame
 	#               postion acutal       Min      Max
 	position.x = clamp(position.x, 33, screen_size.x-33)
@@ -52,14 +51,13 @@ func animatePlayer(positonPlayer):
 		$AnimatedSprite.animation = "Still"
 		
 #-------------------------------------------------------------------------------
-#Creando muchas Balas Player
+# Creando muchas Balas Player
 func Disparar():
 	var main = get_tree().get_root().get_node('Main')
 	if (!main.GameOver):
 		var NewBalita = Balas.instance()
 		NewBalita.position = Vector2(position.x,position.y-32)
 		get_tree().get_root().get_node("Main").add_child(NewBalita)
-		#add_child(NewBalita)
 		
 		# Reproducir sonido
 		var sonido_disparo = get_tree().get_root().get_node("Main/AudioStreamPlayer2D_Bala")

@@ -5,26 +5,21 @@ signal reboot
 
 
 func _ready():
-	#Puntaje()
 	pass
 
 #-------------------------------------------------------------------------------
-#func _process(delta):
-#	pass
-
-#-------------------------------------------------------------------------------
-#Emite una señal
+# Emite una señal
 func _on_Button_button_down():
 	emit_signal("reboot")
 
 #-------------------------------------------------------------------------------
-#Señal que reinicia el juego
+# Señal que reinicia el juego
 func _on_Gameover_reboot():
 	get_tree().reload_current_scene()
 
 
 #-------------------------------------------------------------------------------
-#Naves Enemys caidas
+# Naves Enemigas caidas
 var deceso = 0
 func KillCounter():
 	deceso = deceso + 1
@@ -32,6 +27,6 @@ func KillCounter():
 	$Kills.text = str(deceso) #Enseña la cantidad de naves muertas
 	#return deceso
 #-------------------------------------------------------------------------------
-#Victoria
+# Victoria
 func Ganaste():
 	$Label.text = "Ganaste!"

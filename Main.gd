@@ -1,7 +1,7 @@
 extends Node
 export var GameOver = false
 #-------------------------------------------------------------------------------
-#Intancio la escena Enemy
+# Intancio la escena Enemiga
 var Enemys = load("res://Enemy.tscn")
 #-------------------------------------------------------------------------------
 func _ready():
@@ -17,9 +17,9 @@ func _process(delta):
 		$Player.animatePlayer(NewPosition)
 
 #-------------------------------------------------------------------------------
-#Creando muchas naves
-#Ancho de la nave : 67 pixeles
-#Alto de la nave : 65
+# Creando muchas naves
+# Ancho de la nave : 67 pixeles
+# Alto de la nave : 65
 var y = 232#32 # La posición en y
 var x = 67 # La posición en x
 var i = 1  # Contador de las columna
@@ -40,18 +40,18 @@ func NuevosEnemys():
 		x = 67 
 		y  -= 65
 #-------------------------------------------------------------------------------
-#Movimieno de Enemy ejecutando
+# Movimieno de Enemy ejecutando
 func _on_Timer_timeout():
 	get_tree().call_group('GroupEnemy', 'Mover')
 #-------------------------------------------------------------------------------
-#Coalición bala player con Enemy
+# Coalición bala player con Enemy
 func _on_Player_area_entered(_area):
 	get_node("Timer").stop()
 	pausarJuego()
 	GameOver = true
 	$Gameover.show()
 #-------------------------------------------------------------------------------
-#Creando muchas Balas Player
+# Creando muchas Balas Player
 # Prints a random integer between 0 and 49.
 func _input(event):
 	if event is InputEventKey and event.pressed:

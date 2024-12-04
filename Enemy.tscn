@@ -7,9 +7,9 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 2 ) ],
+"frames": [ ExtResource( 4 ) ],
 "loop": true,
-"name": "Nave_1",
+"name": "Nave_3",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 3 ) ],
@@ -17,9 +17,9 @@ animations = [ {
 "name": "Nave_2",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 4 ) ],
+"frames": [ ExtResource( 2 ) ],
 "loop": true,
-"name": "Nave_3",
+"name": "Nave_1",
 "speed": 5.0
 } ]
 
@@ -38,6 +38,7 @@ frames = SubResource( 1 )
 animation = "Nave_3"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 shape = SubResource( 2 )
 
 [node name="TimeDisparo" type="Timer" parent="."]

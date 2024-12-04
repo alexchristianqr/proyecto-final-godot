@@ -45,9 +45,9 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 390.0
-margin_top = 389.0
+margin_top = 424.0
 margin_right = 688.0
-margin_bottom = 509.0
+margin_bottom = 516.0
 custom_fonts/font = SubResource( 2 )
 text = "Reiniciar"
 __meta__ = {
@@ -72,8 +72,8 @@ position = Vector2( 10.7093, 20.7887 )
 shape = SubResource( 3 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 515.517, 296.877 )
-scale = Vector2( 0.145014, 0.150063 )
+position = Vector2( 513.596, 301.794 )
+scale = Vector2( 0.59145, 0.62113 )
 z_index = -1
 frames = SubResource( 4 )
 [connection signal="reboot" from="." to="." method="_on_Gameover_reboot"]

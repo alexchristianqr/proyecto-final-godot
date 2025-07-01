@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/space.wav-213187f44441c9355866360f98df97ad.sample"
+type="AudioStreamWAV"
+uid="uid://dn7x08x8sh7qy"
+path="res://.godot/imported/space.wav-213187f44441c9355866360f98df97ad.sample"
 
 [deps]
 
 source_file="res://Sounds/space.wav"
-dest_files=[ "res://.import/space.wav-213187f44441c9355866360f98df97ad.sample" ]
+dest_files=["res://.godot/imported/space.wav-213187f44441c9355866360f98df97ad.sample"]
 
 [params]
 
@@ -17,5 +18,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

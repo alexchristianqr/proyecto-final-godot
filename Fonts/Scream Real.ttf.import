@@ -1,0 +1,35 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://dm5c6atrmjer2"
+path="res://.godot/imported/Scream Real.ttf-a011e90ea58a859d7e940ad89bd2cb06.fontdata"
+
+[deps]
+
+source_file="res://Fonts/Scream Real.ttf"
+dest_files=["res://.godot/imported/Scream Real.ttf-a011e90ea58a859d7e940ad89bd2cb06.fontdata"]
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+disable_embedded_bitmaps=true
+multichannel_signed_distance_field=false
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+hinting=1
+subpixel_positioning=4
+keep_rounding_remainders=true
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[]
+language_support={}
+script_support={}
+opentype_features={}

@@ -3,7 +3,7 @@ extends Area2D
 @export var speed = 300
 
 # Intanciar la escena Bala player
-var Balas = load("res://Bala.tscn")
+var BalaJugador = load("res://Bala.tscn")
 
 # Variable que obtine el tamaño de la pantalla
 var screen_size
@@ -26,15 +26,23 @@ func mover_nave(delta):
 	if(Input.is_action_pressed("ui_left")):
 		velocidad.x = velocidad.x - 1
 		
+	if(Input.is_action_pressed("ui_up")):
+		velocidad.y = velocidad.y - 1
+		
+	if(Input.is_action_pressed("ui_down")):
+		velocidad.y = velocidad.y + 1
+		
 	velocidad = velocidad.normalized() * speed
 	distanciaFrame = velocidad * delta
-	# actualizar la pocsition nave
+	
+	# Actualizar la pocsition nave
 	position = position + distanciaFrame
-	#               postion acutal       Min      Max
+	
+	# Postion actual Min y Max
 	position.x = clamp(position.x, 33, screen_size.x-33)
 	return position.x
 
-#Animación del player
+# Animación del player
 func animar_jugador(posicion_jugador):
 	
 	if(Input.is_action_pressed("ui_right") or Input.is_action_pressed("ui_left")):
@@ -54,7 +62,7 @@ func animar_jugador(posicion_jugador):
 func disparar():
 	var main = get_tree().get_root().get_node('Main')
 	if (!main.GameOver):
-		var nueva_bala = Balas.instantiate()
+		var nueva_bala = BalaJugador.instantiate()
 		
 		nueva_bala.position = Vector2(position.x,position.y-32)
 		get_tree().get_root().get_node("Main").add_child(nueva_bala)

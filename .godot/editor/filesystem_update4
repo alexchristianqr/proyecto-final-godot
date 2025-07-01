@@ -6,3 +6,6 @@ res://Player.gd
 res://Gameover.gd
 res://Enemy.tscn
 res://Gameover.tscn
+res://BalaEnemy.gd
+res://Bala.gd
+res://BalaEnemy.tscn

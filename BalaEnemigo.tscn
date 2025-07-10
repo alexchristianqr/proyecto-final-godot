@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://dcwu7lxiqo5lq"]
 
-[ext_resource type="Script" uid="uid://bkpn0c1lrfrjj" path="res://BalaEnemy.gd" id="1"]
+[ext_resource type="Script" uid="uid://bkpn0c1lrfrjj" path="res://BalaEnemigo.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://0a0pfd8qgpqx" path="res://Img/BalaPlayer.png" id="2"]
 
 [sub_resource type="SpriteFrames" id="1"]

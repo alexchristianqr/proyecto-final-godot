@@ -2,7 +2,7 @@ extends Node
 @export var GameOver = false
 
 # Intancio la escena Enemiga
-var Enemigo = load("res://Enemy.tscn")
+var Enemigo = load("res://Enemigo.tscn")
 
 func _ready():
 	nuevos_enemigos()

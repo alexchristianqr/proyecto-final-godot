@@ -1,55 +1,55 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1751326541
-Bala.gd::GDScript::3392978820871915631::1751295026::0::1::::<>Area2D<><>0<>0<><>::
-Bala.tscn::PackedScene::-1::1751295026::0::1::::<><><>0<>0<><>::res://Bala.gd<>res://Img/Bala.png
-BalaEnemy.gd::GDScript::3120108897872246935::1751295026::0::1::::<>Area2D<><>0<>0<><>::
-BalaEnemy.tscn::PackedScene::-1::1751295026::0::1::::<><><>0<>0<><>::res://BalaEnemy.gd<>res://Img/BalaPlayer.png
-default_env.tres::Environment::772854292608074517::1751326541::0::1::::<><><>0<>0<><>::
-Enemy.gd::GDScript::2447861284153724011::1751326204::0::1::::<>Area2D<><>0<>0<><>::
-Enemy.tscn::PackedScene::4220192610011073058::1751326541::0::1::::<><><>0<>0<><>::uid://ba406g416myjj::::res://Enemy.gd<>uid://dkls4x4fqqyi8::::res://Img/Enemy_1.png<>uid://dkm4w01w7yycu::::res://Img/Enemy_2.png<>uid://bip7fwogtidhn::::res://Img/Enemy_3.png
-export_presets.cfg::TextFile::-1::1742858328::0::1::::<><><>0<>0<><>::
-Gameover.gd::GDScript::7132925129052206831::1751324438::0::1::::<>Area2D<><>0<>0<><>::
-Gameover.tscn::PackedScene::-1::1751295026::0::1::::<><><>0<>0<><>::res://Gameover.gd<>res://Img/fondo.jpg<>res://Fonts/Scream Real.ttf
-icon.png::CompressedTexture2D::5310155650142757310::1742858328::1751295249::1::::<><><>0<>0<>28dff31c73d88a9b35433abe4389a667<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-LICENCE.md::TextFile::-1::1742858328::0::1::::<><><>0<>0<><>::
-Main.gd::GDScript::2770305284112401629::1751325949::0::1::::<>Node<><>0<>0<><>::
-Main.tscn::PackedScene::5373412906583542100::1751325949::0::1::::<><><>0<>0<><>::uid://bfp7r16dpx6er::::res://Main.gd<>res://Player.tscn<>uid://btj8fbtsyysp1::::res://Img/fondo.jpg<>res://Gameover.tscn<>uid://b4hralvrbyank::::res://Sounds/SHOOT002.wav<>uid://dn7x08x8sh7qy::::res://Sounds/space.wav
-Player.gd::GDScript::3574710121686409485::1751325429::0::1::::<>Area2D<><>0<>0<><>::
-Player.tscn::PackedScene::-1::1751295026::0::1::::<><><>0<>0<><>::res://Player.gd<>res://Img/Nave 02 (copia).png<>res://Img/Nave 0 (copia).png<>res://Img/Nave 01 (copia).png
+::res://::1752119730
+Bala.gd::GDScript::3392978820871915631::1751330389::0::1::::<>Area2D<><>0<>0<><>::
+Bala.tscn::PackedScene/PackedScene::-1::1751295026::0::1::::<><><>0<>0<><>::res://Bala.gd<>res://Img/Bala.png
+BalaEnemigo.gd::GDScript/GDScript::3120108897872246935::1751330379::0::1::::<>Area2D<><>0<>0<><>::
+BalaEnemigo.tscn::PackedScene/PackedScene::7346328147877772206::1751330642::0::1::::<><><>0<>0<><>::uid://bkpn0c1lrfrjj::::res://BalaEnemigo.gd<>uid://0a0pfd8qgpqx::::res://Img/BalaPlayer.png
+default_env.tres::Environment::772854292608074517::1751335830::0::1::::<><><>0<>0<><>::
+Enemigo.gd::GDScript::2447861284153724011::1751334370::0::1::::<>Area2D<><>0<>0<><>::
+Enemigo.tscn::PackedScene/PackedScene::4220192610011073058::1751330649::0::1::::<><><>0<>0<><>::uid://ba406g416myjj::::res://Enemigo.gd<>uid://dkls4x4fqqyi8::::res://Img/Enemy_1.png<>uid://dkm4w01w7yycu::::res://Img/Enemy_2.png<>uid://bip7fwogtidhn::::res://Img/Enemy_3.png
+export_presets.cfg::TextFile/TextFile::-1::1742858328::0::1::::<><><>0<>0<><>::
+Gameover.gd::GDScript::7132925129052206831::1751330355::0::1::::<>Area2D<><>0<>0<><>::
+Gameover.tscn::PackedScene::4711967822749603487::1751330257::0::1::::<><><>0<>0<><>::uid://c8vih8mkkhmmp::::res://Gameover.gd<>uid://dm5c6atrmjer2::::res://Fonts/Scream Real.ttf
+icon.png::CompressedTexture2D/CompressedTexture2D::5310155650142757310::1742858328::1751295249::1::::<><><>0<>0<>28dff31c73d88a9b35433abe4389a667<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+Jugador.gd::GDScript::3574710121686409485::1751330670::0::1::::<>Area2D<><>0<>0<><>::
+Jugador.tscn::PackedScene::-1::1751330632::0::1::::<><><>0<>0<><>::uid://bq6u7ofyfpe8t::::res://Jugador.gd<>uid://vqrry872i1ba::::res://Img/Nave 02 (copia).png<>uid://cibvn5dod4bgl::::res://Img/Nave 0 (copia).png<>uid://7s7g0oybma7j::::res://Img/Nave 01 (copia).png
+LICENCE.md::TextFile/TextFile::-1::1742858328::0::1::::<><><>0<>0<><>::
+Main.gd::GDScript::2770305284112401629::1751335209::0::1::::<>Node<><>0<>0<><>::
+Main.tscn::PackedScene::5373412906583542100::1751333736::0::1::::<><><>0<>0<><>::uid://bfp7r16dpx6er::::res://Main.gd<>res://Jugador.tscn<>uid://61w373finaac::::res://Img/pacifico_001.jpg<>uid://b8erolndnm67t::::res://Gameover.tscn<>uid://b4hralvrbyank::::res://Sounds/SHOOT002.wav<>uid://dn7x08x8sh7qy::::res://Sounds/space.wav
 ::res://Fonts/::1751295249
-AdventureBlues.otf::FontFile::2953575260829141819::1742858328::1751295248::1::::<><><>0<>0<>5fc77f89c5faea43d7252869927c86b8<>res://.godot/imported/AdventureBlues.otf-7db77e5b488575388b753cb1b27fe78d.fontdata::
-Momoyo.otf::FontFile::4426732246903373335::1742858328::1751295249::1::::<><><>0<>0<>85121f252e232bb97fe9e7b9c0c0ff0a<>res://.godot/imported/Momoyo.otf-df9d7218debe8dbc022c04055494a828.fontdata::
-Scream Real.otf::FontFile::7352086711361924841::1742858328::1751295249::1::::<><><>0<>0<>8067d4b15716513da17c26b805248ed8<>res://.godot/imported/Scream Real.otf-34959d881fa6e4e2dfc1847ae2d03474.fontdata::
-Scream Real.ttf::FontFile::8063636331094150869::1742858328::1751295248::1::::<><><>0<>0<>f5e87aceaa021f39ce919cc120cd90ef<>res://.godot/imported/Scream Real.ttf-a011e90ea58a859d7e940ad89bd2cb06.fontdata::
-VEGgY PERSONAL USE.ttf::FontFile::2135225510692310625::1742858328::1751295249::1::::<><><>0<>0<>0d44b7857fd657b5da8acab6253ab58c<>res://.godot/imported/VEGgY PERSONAL USE.ttf-b37656357d19dd4880f0e300c7fa5a0c.fontdata::
-Xolonium-Regular.ttf::FontFile::6973148067039631190::1742858328::1751295249::1::::<><><>0<>0<>fc37641f36b1e54112dd867bf3de43a9<>res://.godot/imported/Xolonium-Regular.ttf-504ec2ef3fc3ddb9719f016979292baa.fontdata::
-::res://Img/::1751327178
-Bala player.svg::CompressedTexture2D::7023801579100103840::1742858328::1751295249::1::::<><><>0<>0<>7db0726e17249c8a3992f8b26833eb3b<>res://.godot/imported/Bala player.svg-028e6aac915f917919428118b85dab99.ctex::
-Bala.png::CompressedTexture2D::3329528855621713400::1742858328::1751295249::1::::<><><>0<>0<>2d49480628d18ba85d8a7fe076257edc<>res://.godot/imported/Bala.png-4dcd41b170a40683cbaaf46fe8cff5c3.ctex::
-Bala.svg::CompressedTexture2D::7208470015871384040::1742858328::1751295249::1::::<><><>0<>0<>b4a3923e629d3431fce6a5f95ed3730a<>res://.godot/imported/Bala.svg-51e51a135180bfce3a3bf7af7212757d.ctex::
-BalaPlayer.png::CompressedTexture2D::1756266071450712707::1742858328::1751295249::1::::<><><>0<>0<>7da8c54ab8fc68c5b842969dd46bcb45<>res://.godot/imported/BalaPlayer.png-ebe4e5b8bcf81d4356a443975f8afe2c.ctex::
-Enemy_1.png::CompressedTexture2D::7885004589732919665::1742858328::1751295249::1::::<><><>0<>0<>7e724cc727aa493710c2f45daf7c0bd7<>res://.godot/imported/Enemy_1.png-753f440d053d2f5cb4cf25053773cf8f.ctex::
-Enemy_2.png::CompressedTexture2D::7887724455056461112::1742858328::1751295249::1::::<><><>0<>0<>b4f82db5745af44bd1b17eca326f4a94<>res://.godot/imported/Enemy_2.png-807b6cbbc60be3b0ef69dcb4bfa45a71.ctex::
-Enemy_3.png::CompressedTexture2D::2980850149285594167::1742858328::1751295249::1::::<><><>0<>0<>dcc7c456b7f9de29d4dc5412c75a4612<>res://.godot/imported/Enemy_3.png-83866816d118b04f19e154547e9c4113.ctex::
-fondo.jpg::CompressedTexture2D::3740600785058580512::1742858328::1751295250::1::::<><><>0<>0<>3490f7d7001581a623b4cceb152bcd9f<>res://.godot/imported/fondo.jpg-cb4968ffc161d94ffbcfe5e7959d161f.ctex::
-fondo_backup.jpg::CompressedTexture2D::6545768863721548307::1742858328::1751295269::1::::<><><>0<>0<>1ccd360215310a24d747554e6e6afbd7<>res://.godot/imported/fondo_backup.jpg-e00a98fed52efd54e28dc6077cfb29da.ctex::
-Nave 0 (copia).png::CompressedTexture2D::5337716347389544051::1742858328::1751295249::1::::<><><>0<>0<>88ae03229c4e891a1a1fa9bcf608b0a1<>res://.godot/imported/Nave 0 (copia).png-446bdf7551b46b86d60bf9a58285f84c.ctex::
-Nave 0.png::CompressedTexture2D::5025979282788352962::1742858328::1751295249::1::::<><><>0<>0<>9b21a947c8361462e1cc03ad0d5187b4<>res://.godot/imported/Nave 0.png-1e9d74c6c775c1d4ec234647c2228630.ctex::
-Nave 01 (copia).png::CompressedTexture2D::2285156790325343161::1742858328::1751295249::1::::<><><>0<>0<>a326a38284fb1904d1e22fdca4383b35<>res://.godot/imported/Nave 01 (copia).png-721104b4965d5adeaf37d3cbdffa5e9c.ctex::
-Nave 01.png::CompressedTexture2D::3900295629137782980::1742858328::1751295249::1::::<><><>0<>0<>5b8a58d80f96959ebc43b0470269285e<>res://.godot/imported/Nave 01.png-b14a63cdfe7fac1b46c4a2132f7d0d65.ctex::
-Nave 02 (copia).png::CompressedTexture2D::1508059620866357946::1742858328::1751295249::1::::<><><>0<>0<>0d61e018ef973e6f0fb8424223e5d156<>res://.godot/imported/Nave 02 (copia).png-007f40f2ef77a34a3e1f12062f639de6.ctex::
-Nave 02.png::CompressedTexture2D::4681516550529872108::1742858328::1751295249::1::::<><><>0<>0<>842539360363b3dd558c966b538d2f0c<>res://.godot/imported/Nave 02.png-22785e0e2d34ec083d52b4849e83771d.ctex::
-Nave enemiga03_2.png::CompressedTexture2D::107924706268870306::1742858328::1751295249::1::::<><><>0<>0<>192354103dced16f4e52c93817932cd5<>res://.godot/imported/Nave enemiga03_2.png-dddcce2fb3d4fca1830991ea5236d642.ctex::
-Nave enemiga 02.png::CompressedTexture2D::6317664217526883442::1742858328::1751295249::1::::<><><>0<>0<>ef45b114c204181f9b60ffdcf99c646e<>res://.godot/imported/Nave enemiga 02.png-02b318c1defe33904e9fc8711a69b4c5.ctex::
-Nave Enemiga_01.png::CompressedTexture2D::8904351825118716468::1742858328::1751295249::1::::<><><>0<>0<>662f6ba642cb610ee0044ca0cac8ff7f<>res://.godot/imported/Nave Enemiga_01.png-26f971f5f65a9ccd2b54c489e11eb7c3.ctex::
-NaveEneniga03_1.png::CompressedTexture2D::1767046913057626304::1742858328::1751295249::1::::<><><>0<>0<>69dd8d1e959c5b8fd54d30aa525739cb<>res://.godot/imported/NaveEneniga03_1.png-7cf85212801045785687a628b98e81cd.ctex::
-pacifico_001.jpg::CompressedTexture2D::2230915474694864394::1751327107::1751327181::1::::<><><>0<>0<>e35af235a1bac4e2b05b62900deaaf62<>res://.godot/imported/pacifico_001.jpg-7f2233fe70654e30546d01ce60989d78.ctex::
+AdventureBlues.otf::FontFile/FontFile::2953575260829141819::1742858328::1751295248::1::::<><><>0<>0<>5fc77f89c5faea43d7252869927c86b8<>res://.godot/imported/AdventureBlues.otf-7db77e5b488575388b753cb1b27fe78d.fontdata::
+Momoyo.otf::FontFile/FontFile::4426732246903373335::1742858328::1751295249::1::::<><><>0<>0<>85121f252e232bb97fe9e7b9c0c0ff0a<>res://.godot/imported/Momoyo.otf-df9d7218debe8dbc022c04055494a828.fontdata::
+Scream Real.otf::FontFile/FontFile::7352086711361924841::1742858328::1751295249::1::::<><><>0<>0<>8067d4b15716513da17c26b805248ed8<>res://.godot/imported/Scream Real.otf-34959d881fa6e4e2dfc1847ae2d03474.fontdata::
+Scream Real.ttf::FontFile/FontFile::8063636331094150869::1742858328::1751295248::1::::<><><>0<>0<>f5e87aceaa021f39ce919cc120cd90ef<>res://.godot/imported/Scream Real.ttf-a011e90ea58a859d7e940ad89bd2cb06.fontdata::
+VEGgY PERSONAL USE.ttf::FontFile/FontFile::2135225510692310625::1742858328::1751295249::1::::<><><>0<>0<>0d44b7857fd657b5da8acab6253ab58c<>res://.godot/imported/VEGgY PERSONAL USE.ttf-b37656357d19dd4880f0e300c7fa5a0c.fontdata::
+Xolonium-Regular.ttf::FontFile/FontFile::6973148067039631190::1742858328::1751295249::1::::<><><>0<>0<>fc37641f36b1e54112dd867bf3de43a9<>res://.godot/imported/Xolonium-Regular.ttf-504ec2ef3fc3ddb9719f016979292baa.fontdata::
+::res://Img/::1751327181
+Bala player.svg::CompressedTexture2D/CompressedTexture2D::7023801579100103840::1742858328::1751295249::1::::<><><>0<>0<>7db0726e17249c8a3992f8b26833eb3b<>res://.godot/imported/Bala player.svg-028e6aac915f917919428118b85dab99.ctex::
+Bala.png::CompressedTexture2D/CompressedTexture2D::3329528855621713400::1742858328::1751295249::1::::<><><>0<>0<>2d49480628d18ba85d8a7fe076257edc<>res://.godot/imported/Bala.png-4dcd41b170a40683cbaaf46fe8cff5c3.ctex::
+Bala.svg::CompressedTexture2D/CompressedTexture2D::7208470015871384040::1742858328::1751295249::1::::<><><>0<>0<>b4a3923e629d3431fce6a5f95ed3730a<>res://.godot/imported/Bala.svg-51e51a135180bfce3a3bf7af7212757d.ctex::
+BalaPlayer.png::CompressedTexture2D/CompressedTexture2D::1756266071450712707::1742858328::1751295249::1::::<><><>0<>0<>7da8c54ab8fc68c5b842969dd46bcb45<>res://.godot/imported/BalaPlayer.png-ebe4e5b8bcf81d4356a443975f8afe2c.ctex::
+Enemy_1.png::CompressedTexture2D/CompressedTexture2D::7885004589732919665::1742858328::1751295249::1::::<><><>0<>0<>7e724cc727aa493710c2f45daf7c0bd7<>res://.godot/imported/Enemy_1.png-753f440d053d2f5cb4cf25053773cf8f.ctex::
+Enemy_2.png::CompressedTexture2D/CompressedTexture2D::7887724455056461112::1742858328::1751295249::1::::<><><>0<>0<>b4f82db5745af44bd1b17eca326f4a94<>res://.godot/imported/Enemy_2.png-807b6cbbc60be3b0ef69dcb4bfa45a71.ctex::
+Enemy_3.png::CompressedTexture2D/CompressedTexture2D::2980850149285594167::1742858328::1751295249::1::::<><><>0<>0<>dcc7c456b7f9de29d4dc5412c75a4612<>res://.godot/imported/Enemy_3.png-83866816d118b04f19e154547e9c4113.ctex::
+fondo.jpg::CompressedTexture2D/CompressedTexture2D::3740600785058580512::1742858328::1751295250::1::::<><><>0<>0<>3490f7d7001581a623b4cceb152bcd9f<>res://.godot/imported/fondo.jpg-cb4968ffc161d94ffbcfe5e7959d161f.ctex::
+fondo_backup.jpg::CompressedTexture2D/CompressedTexture2D::6545768863721548307::1742858328::1751295269::1::::<><><>0<>0<>1ccd360215310a24d747554e6e6afbd7<>res://.godot/imported/fondo_backup.jpg-e00a98fed52efd54e28dc6077cfb29da.ctex::
+Nave 0 (copia).png::CompressedTexture2D/CompressedTexture2D::5337716347389544051::1742858328::1751295249::1::::<><><>0<>0<>88ae03229c4e891a1a1fa9bcf608b0a1<>res://.godot/imported/Nave 0 (copia).png-446bdf7551b46b86d60bf9a58285f84c.ctex::
+Nave 0.png::CompressedTexture2D/CompressedTexture2D::5025979282788352962::1742858328::1751295249::1::::<><><>0<>0<>9b21a947c8361462e1cc03ad0d5187b4<>res://.godot/imported/Nave 0.png-1e9d74c6c775c1d4ec234647c2228630.ctex::
+Nave 01 (copia).png::CompressedTexture2D/CompressedTexture2D::2285156790325343161::1742858328::1751295249::1::::<><><>0<>0<>a326a38284fb1904d1e22fdca4383b35<>res://.godot/imported/Nave 01 (copia).png-721104b4965d5adeaf37d3cbdffa5e9c.ctex::
+Nave 01.png::CompressedTexture2D/CompressedTexture2D::3900295629137782980::1742858328::1751295249::1::::<><><>0<>0<>5b8a58d80f96959ebc43b0470269285e<>res://.godot/imported/Nave 01.png-b14a63cdfe7fac1b46c4a2132f7d0d65.ctex::
+Nave 02 (copia).png::CompressedTexture2D/CompressedTexture2D::1508059620866357946::1742858328::1751295249::1::::<><><>0<>0<>0d61e018ef973e6f0fb8424223e5d156<>res://.godot/imported/Nave 02 (copia).png-007f40f2ef77a34a3e1f12062f639de6.ctex::
+Nave 02.png::CompressedTexture2D/CompressedTexture2D::4681516550529872108::1742858328::1751295249::1::::<><><>0<>0<>842539360363b3dd558c966b538d2f0c<>res://.godot/imported/Nave 02.png-22785e0e2d34ec083d52b4849e83771d.ctex::
+Nave enemiga03_2.png::CompressedTexture2D/CompressedTexture2D::107924706268870306::1742858328::1751295249::1::::<><><>0<>0<>192354103dced16f4e52c93817932cd5<>res://.godot/imported/Nave enemiga03_2.png-dddcce2fb3d4fca1830991ea5236d642.ctex::
+Nave enemiga 02.png::CompressedTexture2D/CompressedTexture2D::6317664217526883442::1742858328::1751295249::1::::<><><>0<>0<>ef45b114c204181f9b60ffdcf99c646e<>res://.godot/imported/Nave enemiga 02.png-02b318c1defe33904e9fc8711a69b4c5.ctex::
+Nave Enemiga_01.png::CompressedTexture2D/CompressedTexture2D::8904351825118716468::1742858328::1751295249::1::::<><><>0<>0<>662f6ba642cb610ee0044ca0cac8ff7f<>res://.godot/imported/Nave Enemiga_01.png-26f971f5f65a9ccd2b54c489e11eb7c3.ctex::
+NaveEneniga03_1.png::CompressedTexture2D/CompressedTexture2D::1767046913057626304::1742858328::1751295249::1::::<><><>0<>0<>69dd8d1e959c5b8fd54d30aa525739cb<>res://.godot/imported/NaveEneniga03_1.png-7cf85212801045785687a628b98e81cd.ctex::
+pacifico_001.jpg::CompressedTexture2D/CompressedTexture2D::2230915474694864394::1751327107::1751327181::1::::<><><>0<>0<>e35af235a1bac4e2b05b62900deaaf62<>res://.godot/imported/pacifico_001.jpg-7f2233fe70654e30546d01ce60989d78.ctex::
 ::res://Img/pruebas/::1742858328
-prueba.txt::TextFile::-1::1742858328::0::1::::<><><>0<>0<><>::
+prueba.txt::TextFile/TextFile::-1::1742858328::0::1::::<><><>0<>0<><>::
 ::res://Sounds/::1751295269
-bomb.wav::AudioStreamWAV::6800011855193175369::1742858328::1751295269::1::::<><><>0<>0<>ef7f3ca3134e463279787d137f3689ba<>res://.godot/imported/bomb.wav-125479195d0fe975da4ffa00d02a7eaa.sample::
-flame.wav::AudioStreamWAV::4279582426574977703::1742858328::1751295269::1::::<><><>0<>0<>f80f37e17f6d4fb41bba8e6446afe75d<>res://.godot/imported/flame.wav-29b89bf3b174b0ab93d8b31815d3dccf.sample::
-laser.wav::AudioStreamWAV::7007284160132694096::1742858328::1751295269::1::::<><><>0<>0<>26db72c20be0b2b1bb67e4b0cb5b5c58<>res://.godot/imported/laser.wav-a4f5614fad4280bbc72c29860571fce9.sample::
-SHOOT002.wav::AudioStreamWAV::4437380593323915124::1742858328::1751295269::1::::<><><>0<>0<>50b8c3234078aec5813fbfcd80570ec5<>res://.godot/imported/SHOOT002.wav-38b6d76b555a6189c612f0c09c806bd2.sample::
-space.wav::AudioStreamWAV::8139220012509680112::1742858328::1751295269::1::::<><><>0<>0<>e4bf11d253ff4c0d73092bd20cb6c40c<>res://.godot/imported/space.wav-213187f44441c9355866360f98df97ad.sample::
-start.wav::AudioStreamWAV::3367974471752134665::1742858328::1751295269::1::::<><><>0<>0<>edd3278867eb8419d7681416d0309885<>res://.godot/imported/start.wav-89945000e985ddde65941672c5fac9ca.sample::
+bomb.wav::AudioStreamWAV/AudioStreamWAV::6800011855193175369::1742858328::1751295269::1::::<><><>0<>0<>ef7f3ca3134e463279787d137f3689ba<>res://.godot/imported/bomb.wav-125479195d0fe975da4ffa00d02a7eaa.sample::
+flame.wav::AudioStreamWAV/AudioStreamWAV::4279582426574977703::1742858328::1751295269::1::::<><><>0<>0<>f80f37e17f6d4fb41bba8e6446afe75d<>res://.godot/imported/flame.wav-29b89bf3b174b0ab93d8b31815d3dccf.sample::
+laser.wav::AudioStreamWAV/AudioStreamWAV::7007284160132694096::1742858328::1751295269::1::::<><><>0<>0<>26db72c20be0b2b1bb67e4b0cb5b5c58<>res://.godot/imported/laser.wav-a4f5614fad4280bbc72c29860571fce9.sample::
+SHOOT002.wav::AudioStreamWAV/AudioStreamWAV::4437380593323915124::1742858328::1751295269::1::::<><><>0<>0<>50b8c3234078aec5813fbfcd80570ec5<>res://.godot/imported/SHOOT002.wav-38b6d76b555a6189c612f0c09c806bd2.sample::
+space.wav::AudioStreamWAV/AudioStreamWAV::8139220012509680112::1742858328::1751295269::1::::<><><>0<>0<>e4bf11d253ff4c0d73092bd20cb6c40c<>res://.godot/imported/space.wav-213187f44441c9355866360f98df97ad.sample::
+start.wav::AudioStreamWAV/AudioStreamWAV::3367974471752134665::1742858328::1751295269::1::::<><><>0<>0<>edd3278867eb8419d7681416d0309885<>res://.godot/imported/start.wav-89945000e985ddde65941672c5fac9ca.sample::

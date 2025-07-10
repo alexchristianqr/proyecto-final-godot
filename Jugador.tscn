@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://Player.gd" type="Script" id=1]
-[ext_resource path="res://Img/Nave 02 (copia).png" type="Texture2D" id=2]
-[ext_resource path="res://Img/Nave 0 (copia).png" type="Texture2D" id=3]
-[ext_resource path="res://Img/Nave 01 (copia).png" type="Texture2D" id=4]
+[ext_resource type="Script" uid="uid://bq6u7ofyfpe8t" path="res://Jugador.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://vqrry872i1ba" path="res://Img/Nave 02 (copia).png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cibvn5dod4bgl" path="res://Img/Nave 0 (copia).png" id="3"]
+[ext_resource type="Texture2D" uid="uid://7s7g0oybma7j" path="res://Img/Nave 01 (copia).png" id="4"]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {

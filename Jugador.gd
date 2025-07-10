@@ -3,7 +3,7 @@ extends Area2D
 @export var speed = 300
 
 # Intanciar la escena Bala player
-var BalaJugador = load("res://Bala.tscn")
+var Bala = load("res://Bala.tscn")
 
 # Variable que obtine el tamaño de la pantalla
 var screen_size
@@ -62,7 +62,7 @@ func animar_jugador(posicion_jugador):
 func disparar():
 	var main = get_tree().get_root().get_node('Main')
 	if (!main.GameOver):
-		var nueva_bala = BalaJugador.instantiate()
+		var nueva_bala = Bala.instantiate()
 		
 		nueva_bala.position = Vector2(position.x,position.y-32)
 		get_tree().get_root().get_node("Main").add_child(nueva_bala)

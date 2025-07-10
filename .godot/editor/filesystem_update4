@@ -1,11 +1,2 @@
 res://default_env.tres
 res://Main.tscn
-res://Enemy.gd
-res://Main.gd
-res://Player.gd
-res://Gameover.gd
-res://Enemy.tscn
-res://Gameover.tscn
-res://BalaEnemy.gd
-res://Bala.gd
-res://BalaEnemy.tscn

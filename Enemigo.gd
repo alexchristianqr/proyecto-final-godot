@@ -1,6 +1,6 @@
 extends Area2D
 
-var BalaEnemigo = load("res://BalaEnemy.tscn") # Instanciar la escena
+var BalaEnemigo = load("res://BalaEnemigo.tscn") # Instanciar la escena
 
 var screen_size
 func _ready():
@@ -9,13 +9,13 @@ func _ready():
 
 func _on_TimeDisparo_timeout():
 	disparar()
-	
+
 func disparar():
 	var main = get_tree().get_root().get_node('Main')
 	
 	if (!main.GameOver && (randi() % 100) <= 1): 
 		var nueva_bala = BalaEnemigo.instantiate()
-		# Tomamos la posición de Enemy
+		# Tomamos la posición del enemigo
 		nueva_bala.position = Vector2(position.x, position.y)
 		get_tree().get_root().get_node("Main").add_child(nueva_bala)
 
@@ -47,10 +47,10 @@ func mover_nave():
 # Cambiar dirección del movimiento
 func mover_izquierda():
 	i=2;
-	
+
 func mover_abajo():
 	i=3;
-	
+
 func mover_derecha():
 	i=1;
 

@@ -1,15 +1,15 @@
 [gd_scene load_steps=7 format=3 uid="uid://b1ej7q2gm2edu"]
 
 [ext_resource type="Script" uid="uid://ba406g416myjj" path="res://Enemigo.gd" id="1"]
-[ext_resource type="Texture2D" uid="uid://dkls4x4fqqyi8" path="res://Img/Enemy_1.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://dkm4w01w7yycu" path="res://Img/Enemy_2.png" id="3"]
-[ext_resource type="Texture2D" uid="uid://bip7fwogtidhn" path="res://Img/Enemy_3.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c6xqolnx8as67" path="res://Img/iconos/nave_enemiga_chile_3.png" id="2_j6yrh"]
+[ext_resource type="Texture2D" uid="uid://c1k44xta2040j" path="res://Img/iconos/nave_enemiga_chile_2.png" id="3_8s8li"]
+[ext_resource type="Texture2D" uid="uid://bdhnkj4tgcdd" path="res://Img/iconos/nave_enemiga_chile_1.png" id="4_ouvtx"]
 
 [sub_resource type="SpriteFrames" id="1"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2")
+"texture": ExtResource("2_j6yrh")
 }],
 "loop": true,
 "name": &"Nave_1",
@@ -17,7 +17,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3")
+"texture": ExtResource("3_8s8li")
 }],
 "loop": true,
 "name": &"Nave_2",
@@ -25,7 +25,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("4")
+"texture": ExtResource("4_ouvtx")
 }],
 "loop": true,
 "name": &"Nave_3",

@@ -1,2 +1,5 @@
 res://default_env.tres
 res://Main.tscn
+res://Jugador.tscn
+res://Enemigo.tscn
+res://Gameover.tscn

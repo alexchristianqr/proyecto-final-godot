@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://cis6lcjxmhvom"]
 
 [ext_resource type="Script" uid="uid://bfp7r16dpx6er" path="res://Main.gd" id="1"]
-[ext_resource type="PackedScene" path="res://Jugador.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://bu3evfrtf3a5g" path="res://Jugador.tscn" id="2"]
 [ext_resource type="Texture2D" uid="uid://61w373finaac" path="res://Img/pacifico_001.jpg" id="3_3dxm6"]
 [ext_resource type="PackedScene" uid="uid://b8erolndnm67t" path="res://Gameover.tscn" id="4"]
 [ext_resource type="AudioStream" uid="uid://b4hralvrbyank" path="res://Sounds/SHOOT002.wav" id="5"]
